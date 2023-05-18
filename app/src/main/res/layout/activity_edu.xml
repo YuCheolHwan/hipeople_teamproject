@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityForRegister.EduActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:paddingTop="10dp"
+        app:elevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:progressDrawable="@drawable/progressbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/tvSelectEduPlz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="최종학력을 선택해주세요."
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/btnHighSchool"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout4" />
+
+    <Button
+        android:id="@+id/btnHighSchool"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="고등학교"
+        android:backgroundTint="@color/btncolor"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSelectEduPlz" />
+
+    <Button
+        android:id="@+id/btnCollege"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="전문대"
+        android:backgroundTint="@color/btncolor"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/btnHighSchool"
+        app:layout_constraintTop_toBottomOf="@+id/btnHighSchool" />
+
+    <Button
+        android:id="@+id/btnUniversity"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="대학교"
+        android:backgroundTint="@color/btncolor"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/btnCollege"
+        app:layout_constraintTop_toBottomOf="@+id/btnCollege" />
+
+    <Button
+        android:id="@+id/btnGraduateSchool"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="대학원"
+        android:backgroundTint="@color/btncolor"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/btnUniversity"
+        app:layout_constraintTop_toBottomOf="@+id/btnUniversity" />
+
+    <Button
+        android:id="@+id/btnEtc"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="기타"
+        android:backgroundTint="@color/btncolor"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/btnGraduateSchool"
+        app:layout_constraintTop_toBottomOf="@+id/btnGraduateSchool" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNext7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:background = "@drawable/btn_next"
+        android:text="다음"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

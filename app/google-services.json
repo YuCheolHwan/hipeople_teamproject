@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "153604881780",
+    "firebase_url": "https://datingappkotlinproject-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "datingappkotlinproject",
+    "storage_bucket": "datingappkotlinproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153604881780:android:3aa97ede6a4b167de74021",
+        "android_client_info": {
+          "package_name": "com.example.datingappkotlinproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153604881780-htf8sr144js0e7cj0cu6cv1tpajivml6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.datingappkotlinproject",
+            "certificate_hash": "xxxxxxxxxxxxxxxxxxxxxxxxxx"
+          }
+        },
+        {
+          "client_id": "153604881780-9pvcmevpg35sts3madh9qklak7rel9ei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "xxxxxxxxxxxxxxxxxxxxxxxxxx"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153604881780-9pvcmevpg35sts3madh9qklak7rel9ei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
